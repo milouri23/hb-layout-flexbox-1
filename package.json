@@ -7,8 +7,7 @@
     "build": "npm run lint && node-sass src/styles/index.scss public/style.css --output-style compressed",
     "lint": "stylelint 'src/styles/**/*.scss' --config .stylelintrc --syntax scss",
     "start": "npm run build -- -w --source-map true",
-    "precommit": "npm run lint",
-    "prepush": "npm run lint"
+    "precommit": "npm run lint"
   },
   "repository": {
     "type": "git",
