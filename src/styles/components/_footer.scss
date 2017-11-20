@@ -1,0 +1,13 @@
+.footer {
+    height: 200px;
+    background-color: $color-main;
+    border: 1px solid $color-main-dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-square {
+        height: 150px;
+        width: 150px;
+    }
+}
