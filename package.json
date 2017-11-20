@@ -1,0 +1,24 @@
+{
+  "name": "hb-layout-flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass styles/style.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrscrrn/hb-layout-flexbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrscrrn/hb-layout-flexbox/issues"
+  },
+  "homepage": "https://github.com/andrscrrn/hb-layout-flexbox#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.1"
+  }
+}
