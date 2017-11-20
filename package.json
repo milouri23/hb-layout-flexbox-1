@@ -1,7 +1,7 @@
 {
   "name": "hb-layout-flexbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an example of how to use Flexbox.",
   "private": true,
   "scripts": {
     "build": "npm run lint && node-sass src/styles/index.scss public/style.css --output-style compressed",
