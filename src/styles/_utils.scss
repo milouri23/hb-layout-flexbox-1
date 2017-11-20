@@ -1,0 +1,5 @@
+@mixin at-small-breakpoint {
+  @media (max-width: $small-breakpoint) {
+    @content;
+  }
+}

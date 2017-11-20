@@ -1,15 +1,16 @@
 body {
-    font-family: $font-family;
-    color: $color-main-dark;
+  color: $color-main-dark;
+  font-family: $font-family;
 }
 
 .container {
-    width: 100%;
-    max-width: 1024px;
-    margin: 100px auto 0;
+  font: 0;
+  margin: 100px auto 0;
+  max-width: $main-width;
+  width: 100%;
 }
 
 .box {
-    background-color: $color-main;
-    border: 1px solid $color-main-dark;
+  background-color: $color-main;
+  border: 1px solid $color-main-dark;
 }

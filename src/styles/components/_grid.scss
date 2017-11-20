@@ -1,35 +1,36 @@
 .flex-container {
-    display: flex;
-    margin-bottom: $main-spacing;
-
-    @media (max-width: 500px) {
-        flex-direction: column;
-    }
+  display: flex;
+  margin-bottom: $main-spacing;
+	
+  @include at-small-breakpoint {
+    flex-direction: column;
+  }
 }
 
 .half-box {
-    width: 100%;
-    height: 300px;
-    margin-right: $main-spacing;
+  height: 300px;
+  margin-right: $main-spacing;
+	width: 100%;
 
-    @media (max-width: 500px) {
-        margin-bottom: $main-spacing;
-    }
+  @include at-small-breakpoint {
+    margin-bottom: $main-spacing;
+  }
 }
 
 .half-box:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .third-box {
-    width: 100%;
-    height: 120px;
-    margin-right: $main-spacing;
+  height: 120px;
+  margin-right: $main-spacing;
+  width: 100%;
 
-    @media (max-width: 500px) {
-        margin-bottom: $main-spacing;
-    }
+  @include at-small-breakpoint {
+    margin-bottom: $main-spacing;
+  }
 }
+
 .third-box:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
