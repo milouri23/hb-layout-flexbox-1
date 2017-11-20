@@ -5,8 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass styles/style.scss styles/style.css"
+    "build": "node-sass styles/style.scss styles/style.css --output-style compressed",
+    "start": "npm run build -- -w --source-map true"
   },
   "repository": {
     "type": "git",

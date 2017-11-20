@@ -1,21 +1,5 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    --color-main: #D8D8D8;
-    --color-main-dark: #979797;
-    --main-spacing: 20px;
-    color: var(--color-main-dark);
-}
-
-article {
-    background-color: var(--color-main);
-    border: 1px solid var(--color-main-dark);
-}
+@import 'reset';
+@import 'main';
 
 .container {
     width: 100%;
